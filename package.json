@@ -1,0 +1,10 @@
+{
+  "name": "config-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start-all": "concurrently \"npm start --prefix Admin_Dashboard\" \"npm start --prefix React-Landing-Page-Template-master\" \"npm start --prefix Admin-dashboard-backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
